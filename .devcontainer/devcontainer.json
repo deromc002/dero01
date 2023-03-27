@@ -1,0 +1,6 @@
+{
+	"name": "Bash (Community)",
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
+}
