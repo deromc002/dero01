@@ -1,3 +1,2 @@
-tasks:
-  - name: test
-    command: lscpu
+image:
+  file: .gitpod.Dockerfile
